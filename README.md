@@ -12,7 +12,7 @@ The trained ANN scores a mean accuracy of 83.8% over 10 folds, each with 100 epo
 collected by the 10-fold cross validation was 1.37%.
 
 # Data Set
-In an effort to determine the high-risk customers, the bank observed 10,000 customers over six months. They collected
+In an effort to determine the high-risk customers, the bank observed 10,000 customers over six months. The dataset was partitioned into a training set of 8,000 samples and a testing set of 2,000 samples. They collected
 a variety of datapoints they figured would be indicative of retention (or, more technically, "churn"). An excerpt of 
 the dataset is provided below
 
