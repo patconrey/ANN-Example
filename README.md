@@ -5,7 +5,7 @@ This is an example script to create, train, and evaluate an artificial neural ne
 A bank is losing customers at an alarming rate. They want to investigate why this is happening and identify which
 customers are at a higher risk of leaving. If they can identify those customers, then they can further analyze
 trends within that customer segment. At the same time, they'll be able to take precautions by reaching out to those
-high-risk customers.
+high-risk customers. So, our job is to predict whether or not a customer will leave the bank, giving a probability between 0 and 1.
 
 # Performance
 The trained ANN scores a mean accuracy of 83.8% over 10 folds, each with 100 epochs. The variance of the accuracies 
