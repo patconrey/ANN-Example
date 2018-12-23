@@ -36,6 +36,11 @@ I didn't collect this dataset. So far as I know, it was generated. If you're int
 - BATCH SIZE: 10
 - EPOCHS: 100
 
+# Environment
+Python 3.6.6
+Keras 2.2.4
+Tensorflow 1.10.0
+
 # Future Work
 We want to create an ROC curve for each parameter tuning and use its AUC measure to evaluate the relative performance 
 between hyperparameter selections. It would also be interesting to evaluate different architectures, adding another 
