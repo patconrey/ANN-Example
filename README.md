@@ -21,6 +21,8 @@ the dataset is provided below
 | 1   	      | 15634602  	  | Hargrave  | 619   	      | France    	| Female  	| 42   	| 2       	| 0       	| 1             	| 1          	| 1               	| 101348.88       	| 1  	      |
 | 49   	      | 15766205  	  | Yin       | 550   	      | Germany    	| Male    	| 38   	| 2       	| 103391.38 | 1             	| 0          	| 1               	| 90878.13         	| 0  	      |
 
+I didn't collect this dataset. So far as I know, it was generated. If you're interested in obtaining the full dataset, please reach out to me and I can send it to you. I won't be hosting it in this repository to protect the work of its creator.
+
 # General Architecture
 - Input layer with 11 features
 - First Hidden Layer with 6 nodes & RELU activation
