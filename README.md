@@ -38,7 +38,9 @@ I didn't collect this dataset. So far as I know, it was generated. If you're int
 
 # Environment
 Python 3.6.6
+
 Keras 2.2.4
+
 Tensorflow 1.10.0
 
 # Future Work
