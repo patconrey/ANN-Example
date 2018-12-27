@@ -49,6 +49,7 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
+from keras.layers import PReLU
 
 """
     The architecture:
@@ -69,13 +70,21 @@ classifier = Sequential()
 
 # Adding the input layer and first hidden layer
 # Also add dropout to prevent overfitting
-classifier.add(Dense(activation = 'relu', input_dim = 11, units = 6, kernel_initializer = 'uniform'))
-classifier.add(Dropout(p = 0.1))
+classifier.add(Dense(input_dim = 11, units = 6, kernel_initializer = 'uniform'))
+
+prelu_activation = PReLU()
+classifier.add(prelu_activation)
+
+classifier.add(Dropout(rate = 0.1))
 
 # Add the second hidden layer
 # Also add dropout to prevent overfitting
-classifier.add(Dense(activation = 'relu', units = 6, kernel_initializer = 'uniform'))
-classifier.add(Dropout(p = 0.1))
+classifier.add(Dense(units = 6, kernel_initializer = 'uniform'))
+
+prelu_activation = PReLU()
+classifier.add(prelu_activation)
+
+classifier.add(Dropout(rate = 0.1))
 
 # Add output layer
 classifier.add(Dense(activation = 'sigmoid', units = 1, kernel_initializer = 'uniform'))
